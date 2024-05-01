@@ -7,7 +7,7 @@
       $Result = "no admission fees";
   }
   else
-    if ($Age<=12 && $Age <=21){
+    if ($Age>=12 && $Age <=21){
          $Result = "the student discount";
   } else 
     if ($Day == "Tuesday" || $Day == "Thursday"){
